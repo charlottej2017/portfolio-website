@@ -76,6 +76,16 @@ img {
 .btn-homepage:hover {
   background-color: var(--hover-color);
 }
+.skills p {
+  display: inline;
+  padding: 7px;
+  margin: 1px;
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  border: 1px solid #b8926a;
+  border-radius: 4px;
+}
+
 @media (max-width: 1200px) {
   .featured-projects {
     padding: 0;
