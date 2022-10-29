@@ -59,6 +59,9 @@ img {
 .project-hero {
   background-color: var(--secodary-color);
 }
+.contact-hero {
+  background-color: var(--secodary-color);
+}
 .about-description {
   font-size: 15px;
   margin-top: 0;
