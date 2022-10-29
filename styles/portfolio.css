@@ -32,6 +32,10 @@ p {
 img {
   border-radius: 4px;
 }
+
+.about-pic {
+  border-color: var(--branding-color);
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -40,7 +44,7 @@ img {
 .hero {
   background-color: var(--secodary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 52px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -87,6 +91,9 @@ img {
 .content h3 {
   font-size: 20px;
   font-family: var(--default-font-family);
+}
+.website-buttons {
+  transition: all 100ms ease-in-out;
 }
 .btn-homepage {
   background: var(--branding-color);
