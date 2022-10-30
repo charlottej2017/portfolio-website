@@ -31,11 +31,9 @@ p {
 }
 img {
   border-radius: 4px;
+  vertical-align: middle;
 }
 
-.about-pic {
-  border-color: var(--branding-color);
-}
 .img-fluid {
   max-width: 100%;
   height: auto;
