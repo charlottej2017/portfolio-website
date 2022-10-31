@@ -31,7 +31,6 @@ p {
 }
 img {
   border-radius: 4px;
-  vertical-align: middle;
 }
 
 .img-fluid {
@@ -42,7 +41,7 @@ img {
 .hero {
   background-color: var(--secodary-color);
   text-align: center;
-  padding: 52px 20px;
+  padding: 42px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -60,12 +59,18 @@ img {
   padding: 160px 20px;
   padding-top: 10px;
 }
-
+.feature-text {
+  background-color: var(--secodary-color);
+  padding: 20px 20px;
+  padding-left: 20px 20px;
+  opacity: 0.33;
+}
 .project-hero {
   background-color: var(--secodary-color);
 }
 .contact-hero {
   background-color: var(--secodary-color);
+  padding-bottom: 10px;
 }
 
 .about-description {
@@ -157,10 +162,10 @@ footer .email-link:hover {
     text-align: center;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 24px 10px;
   }
   .project-hero {
-    padding: 30px;
+    padding: 20px;
   }
   .content {
     text-align: center;
