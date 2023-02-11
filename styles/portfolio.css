@@ -153,6 +153,9 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 @media (max-width: 1200px) {
+  .container {
+    margin-top: 30px;
+  }
   .featured-projects {
     padding: 0;
     text-align: center;
