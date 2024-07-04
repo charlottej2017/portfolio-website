@@ -8,7 +8,9 @@
 body {
   font-family: var(--default-font-family);
 }
-
+.navbar {
+  background-color: #0000;
+}
 h1,
 h2,
 h3,
